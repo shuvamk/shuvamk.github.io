@@ -46,6 +46,10 @@
   width: 10%;
 }
 
+.swipe {
+  position: absolute;
+}
+
 @media (max-width: 450px) {
   .blogs {
     flex-direction: column;
@@ -61,6 +65,7 @@
   }
   .bodyMobile {
     display: flex;
+    flex: 1;
   }
   .blogTitle {
     transform: rotate(0deg);

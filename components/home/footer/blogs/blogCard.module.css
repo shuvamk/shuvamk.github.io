@@ -1,4 +1,5 @@
 .blogCard {
+  position: relative;
   display: flex;
   justify-content: center;
   cursor: pointer;
@@ -12,6 +13,7 @@
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   padding: 20px;
+  background-color: white;
 }
 
 .blogCard:hover .title {

@@ -13,9 +13,15 @@
 .navItem:hover {
   color: #e60067;
 }
+.mobileButton {
+  display: none;
+}
 
 @media (max-width: 450px) {
   .navbar {
     display: none;
+  }
+  .mobileButton {
+    display: flex;
   }
 }
