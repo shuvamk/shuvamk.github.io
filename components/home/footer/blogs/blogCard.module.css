@@ -1,4 +1,8 @@
 .blogCard {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  flex-direction: column;
   height: 220px;
   width: 300px;
   margin: 20px;
@@ -7,4 +11,45 @@
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  padding: 20px;
+}
+
+.blogCard:hover .title {
+  color: #e60067;
+}
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* .title:hover {
+  color: #e60067;
+} */
+
+.description {
+  margin-block: 8px;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  color: #6c7693;
+}
+
+.taglist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 12px;
+}
+
+.tag {
+  background-color: #c0def2;
+  padding-inline: 12px;
+  padding-block: 4px;
+  font-size: 13px;
+  border-radius: 8px;
 }
