@@ -1,4 +1,5 @@
 .blogs {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   /* background-color: #f0faf9; */
@@ -19,9 +20,9 @@
 .buttonTitle {
   display: inline-block;
   transform: rotate(90deg);
+  font-weight: 600;
   color: #4433ff;
   font-size: 28px;
-  font-weight: 700;
   cursor: pointer;
 }
 .header {
@@ -40,4 +41,10 @@
 .footer {
   display: flex;
   width: 10%;
+}
+
+@media (max-width: 450px) {
+  .blogs {
+    display: none;
+  }
 }

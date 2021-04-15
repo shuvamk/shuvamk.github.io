@@ -14,3 +14,15 @@
 .subName {
   font-size: 36px;
 }
+
+@media (max-width: 450px) {
+  .hello {
+    font-size: 16px;
+  }
+  .name {
+    font-size: 26px;
+  }
+  .subName {
+    font-size: 20px;
+  }
+}
