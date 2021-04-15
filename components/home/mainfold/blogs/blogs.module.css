@@ -1,6 +1,13 @@
 .blogs {
   display: flex;
+  justify-content: space-between;
 }
 .header {
-  transform: rotate(90deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  display: flex;
 }

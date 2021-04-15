@@ -1,12 +1,8 @@
-import React from 'react'
-import styles 
+import React from "react";
+import styles from "./blogCard.module.css";
 
 function BlogCard() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return <div className={styles.blogCard}></div>;
 }
 
-export default BlogCard
+export default BlogCard;
