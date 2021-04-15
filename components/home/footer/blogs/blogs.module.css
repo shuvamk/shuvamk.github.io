@@ -5,11 +5,24 @@
 }
 .blogTitle {
   transform: rotate(270deg);
+  font-size: 28px;
+  color: #4433ff;
+  font-weight: 700;
 }
-
+.nextIcon {
+  color: #4433ff;
+}
+.allButton {
+  background-color: transparent;
+  border: none;
+}
 .buttonTitle {
   display: inline-block;
   transform: rotate(90deg);
+  color: #4433ff;
+  font-size: 28px;
+  font-weight: 700;
+  cursor: pointer;
 }
 .header {
   display: flex;
@@ -20,7 +33,8 @@
 
 .body {
   display: flex;
-  width: 80%;
+  justify-content: center;
+  flex: 1;
 }
 
 .footer {
