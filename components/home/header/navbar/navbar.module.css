@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+}
+
+.navItem {
+  font-size: 20px;
+  margin: 0 14px;
+  font-weight: 800;
+  color: #6c7693;
+  cursor: pointer;
+}
+
+.navItem:hover {
+  color: #e60067;
+}
