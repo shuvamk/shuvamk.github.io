@@ -15,6 +15,9 @@ function Blogs() {
           return <BlogCard blog={blog} />;
         })}
       </div>
+      <div className={styles.bodyMobile}>
+        <BlogCard blog={blogList[0]} />
+      </div>
 
       <div className={styles.footer}>
         <button className={styles.allButton}>

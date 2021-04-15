@@ -4,6 +4,9 @@
   justify-content: space-between;
   /* background-color: #f0faf9; */
 }
+.bodyMobile {
+  display: none;
+}
 .blogTitle {
   transform: rotate(270deg);
   font-size: 28px;
@@ -45,6 +48,31 @@
 
 @media (max-width: 450px) {
   .blogs {
+    flex-direction: column;
+    justify-content: flex;
+    align-items: center;
+  }
+  .header {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .body {
     display: none;
+  }
+  .bodyMobile {
+    display: flex;
+  }
+  .blogTitle {
+    transform: rotate(0deg);
+  }
+  .footer {
+    width: 100%;
+  }
+  .allButton {
+    width: 100%;
+  }
+  .buttonTitle {
+    display: flex;
+    transform: rotate(0deg);
   }
 }

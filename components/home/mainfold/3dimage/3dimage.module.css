@@ -3,3 +3,9 @@
   flex: 1;
   justify-content: center;
 }
+
+@media (max-width: 450px) {
+  .image {
+    display: none;
+  }
+}

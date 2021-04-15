@@ -13,3 +13,9 @@
 .navItem:hover {
   color: #e60067;
 }
+
+@media (max-width: 450px) {
+  .navbar {
+    display: none;
+  }
+}
