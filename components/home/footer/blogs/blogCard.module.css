@@ -1,0 +1,10 @@
+.blogCard {
+  height: 220px;
+  width: 300px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 18px 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

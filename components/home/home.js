@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./footer/footer";
 import Header from "./header/header";
 
 import styles from "./home.module.css";
@@ -9,6 +10,7 @@ function Home() {
     <div className={styles.container}>
       <Header />
       <Mainfiold />
+      <Footer />
     </div>
   );
 }

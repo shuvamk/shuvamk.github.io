@@ -6,17 +6,19 @@ function Blogs() {
   return (
     <div className={styles.blogs}>
       <div className={styles.header}>
-        <span> This is header</span>
-
-        <button>See all</button>
+        <span className={styles.blogTitle}>Blogs</span>
       </div>
       <div className={styles.body}>
         <BlogCard />
         <BlogCard />
         <BlogCard />
-        <BlogCard />
       </div>
-      <div className={styles.footer}>This is footer</div>
+
+      <div className={styles.footer}>
+        <button className={styles.allButton}>
+          <span className={styles.buttonTitle}>See all</span>
+        </button>
+      </div>
     </div>
   );
 }

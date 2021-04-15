@@ -1,0 +1,29 @@
+.blogs {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #f0faf9; */
+}
+.blogTitle {
+  transform: rotate(270deg);
+}
+
+.buttonTitle {
+  display: inline-block;
+  transform: rotate(90deg);
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5%;
+}
+
+.body {
+  display: flex;
+  width: 80%;
+}
+
+.footer {
+  display: flex;
+  width: 10%;
+}
