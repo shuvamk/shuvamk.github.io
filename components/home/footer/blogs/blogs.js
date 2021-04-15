@@ -1,17 +1,19 @@
 import React from "react";
+import { blogData } from "../../../../data/blogs/blogData";
 import BlogCard from "./blogCard";
 import styles from "./blogs.module.css";
 
 function Blogs() {
+  const blogList = blogData;
   return (
     <div className={styles.blogs}>
       <div className={styles.header}>
         <span className={styles.blogTitle}>Blogs</span>
       </div>
       <div className={styles.body}>
-        <BlogCard />
-        <BlogCard />
-        <BlogCard />
+        {blogList.map((blog) => {
+          return <BlogCard blog={blog} />;
+        })}
       </div>
 
       <div className={styles.footer}>

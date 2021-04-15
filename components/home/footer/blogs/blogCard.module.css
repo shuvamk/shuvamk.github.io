@@ -18,10 +18,13 @@
   color: #e60067;
 }
 .title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   overflow: hidden;
   text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 
 /* .title:hover {
