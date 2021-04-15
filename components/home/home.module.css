@@ -3,30 +3,6 @@
   width: 1240px;
   height: 100vh;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding-inline: 16px;
-}
-
-.hello {
-  font-size: 28px;
-}
-.info {
-  display: flex;
   flex-direction: column;
-}
-
-.name {
-  font-size: 46px;
-  color: #e60067;
-}
-
-.subName {
-  font-size: 36px;
-}
-
-@media (max-width: 600px) {
-  .container {
-    align-items: center;
-  }
+  padding-inline: 16px;
 }

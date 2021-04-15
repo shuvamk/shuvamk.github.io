@@ -1,0 +1,16 @@
+.hello {
+  font-size: 28px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 46px;
+  color: #e60067;
+}
+
+.subName {
+  font-size: 36px;
+}
