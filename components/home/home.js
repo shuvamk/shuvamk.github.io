@@ -21,6 +21,7 @@ function Home() {
       <Header toggle={toggle} />
       <Mainfiold />
       <Footer />
+
       <div className={styles.forMobile}>
         <Mobile toggle={toggle} />
       </div>
