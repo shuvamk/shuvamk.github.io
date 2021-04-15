@@ -13,6 +13,7 @@
 
 .subName {
   font-size: 36px;
+  color: #6c7693;
 }
 
 @media (max-width: 450px) {
