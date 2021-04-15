@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  z-index: 2;
+  height: 90vh;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.options {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navItem {
+  font-size: 20px;
+  margin: 18px 0;
+  font-weight: 800;
+  color: #6c7693;
+  cursor: pointer;
+}
+
+.navItem:hover {
+  color: #e60067;
+}

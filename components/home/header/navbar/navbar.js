@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
+import Mobile from "./mobile/mobile";
 import styles from "./navbar.module.css";
 
-function Navbar() {
+function Navbar({ toggle }) {
   return (
     <div>
       <div className={styles.navbar}>
@@ -48,7 +49,7 @@ function Navbar() {
         </div>
       </div>
       <div className={styles.mobileButton}>
-        <img src="/assets/ham.png" height={50} width={50} />
+        <img src="/assets/ham.png" height={50} width={50} onClick={toggle} />
       </div>
     </div>
   );
