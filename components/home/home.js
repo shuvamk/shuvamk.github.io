@@ -12,19 +12,10 @@ function Home() {
     setIsOpen(!isOpen);
   };
   return (
-    <div
-      className={classnames(
-        styles.container,
-        isOpen ? styles.visible : styles.notVisible
-      )}
-    >
+    <div className={classnames(styles.container)}>
       <Header toggle={toggle} />
       <Mainfiold />
       <Footer />
-
-      <div className={styles.forMobile}>
-        <Mobile toggle={toggle} />
-      </div>
     </div>
   );
 }
