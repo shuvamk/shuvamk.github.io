@@ -1,7 +1,6 @@
 import React from "react";
 import BlogCard from "./blogCard";
 import styles from "./blogs.module.css";
-import Image from "next/image";
 
 function Blogs() {
   return (
@@ -19,7 +18,7 @@ function Blogs() {
         <button className={styles.allButton}>
           <span className={styles.buttonTitle}>
             See all
-            <Image
+            <img
               src="/assets/next.png"
               height="24"
               width="24"
