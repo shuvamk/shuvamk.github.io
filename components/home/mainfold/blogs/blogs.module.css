@@ -1,0 +1,6 @@
+.blogs {
+  display: flex;
+}
+.header {
+  transform: rotate(90deg);
+}
