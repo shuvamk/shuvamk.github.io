@@ -1,3 +1,3 @@
 module.exports = {
-  assetPrefix: "/shuvamk.github.io",
+  assetPrefix: "/shuvamk.github.io/",
 };
