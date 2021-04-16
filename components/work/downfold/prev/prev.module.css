@@ -1,0 +1,14 @@
+.prev {
+  height: 250px;
+  width: 500px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 18px 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0px;
+}

@@ -1,0 +1,13 @@
+.downfold {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+.prevCard {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

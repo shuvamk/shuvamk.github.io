@@ -8,7 +8,6 @@ import Mainfiold from "./mainfold/mainfold";
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
-  const [current, setCurrent] = useState("Home");
   const toggle = () => {
     setIsOpen(!isOpen);
   };
