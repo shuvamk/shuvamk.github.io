@@ -1,0 +1,141 @@
+.container {
+  max-width: 60%;
+  margin: 50px 0px;
+}
+.displayImage {
+  height: 200px;
+  width: 300px;
+}
+.timeline {
+  position: relative;
+  padding-left: 4rem;
+  margin: 0 0 0 30px;
+}
+.timeline:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: #4433ff;
+}
+
+.timeline_container {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.timeline_icon {
+  position: absolute;
+  left: -88px;
+  top: 4px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 2rem;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 18px 0px;
+}
+
+.timeline_icon i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timeline_icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.timeline_body {
+  background: white;
+  padding: 20px 20px 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 18px 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline_body:before {
+  content: "";
+  background: inherit;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  left: -10px;
+  transform: rotate(45deg);
+  border-radius: 0 0 0 2px;
+}
+.topRight {
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  display: flex;
+}
+
+.title {
+  font-size: 32px;
+  color: #e60067;
+}
+
+.tags {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 180px;
+}
+
+.tag {
+  font-size: 12px;
+  background-color: #c0def2;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 12px;
+  margin: 6px;
+}
+
+@media (max-width: 450px) {
+  .container {
+    max-width: 100%;
+    margin: 30px 0px;
+  }
+  .top {
+    flex-direction: column-reverse;
+  }
+  .timeline {
+    padding-left: 4rem;
+  }
+  .displayImage {
+    width: 210px;
+    height: 130px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .timeline {
+    padding-left: 1rem;
+    margin: 0 0 0 0px;
+  }
+  .timeline_icon {
+    display: none;
+  }
+  .github {
+    display: none;
+  }
+  .bottom {
+    font-size: 14px;
+  }
+  .tags {
+    flex-direction: row;
+  }
+}

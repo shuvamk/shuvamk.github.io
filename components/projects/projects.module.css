@@ -1,0 +1,11 @@
+.projects {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media (max-width: 450px) {
+  .rightImage {
+    display: none;
+  }
+}

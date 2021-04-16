@@ -4,6 +4,7 @@ import Prev from "./prev/prev";
 
 function Downfold() {
   return (
+    // <div style={{ display: "flex", flex: 1, alignItems: "center" }}>
     <div className={styles.downfold}>
       <div className={styles.header}>
         <span className={styles.prevText}>Previous Work</span>
@@ -13,6 +14,7 @@ function Downfold() {
         <Prev />
       </div>
     </div>
+    // </div>
   );
 }
 
