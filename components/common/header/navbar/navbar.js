@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Mobile from "./mobile/mobile";
 import styles from "./navbar.module.css";
+import Link from "next/link";
 
 function Navbar({ toggle }) {
   return (
@@ -15,7 +16,9 @@ function Navbar({ toggle }) {
             💻
           </g-emoji>
           <span> </span>
-          Work
+          <Link href="/work">
+            <a>Work</a>
+          </Link>
         </div>
         <div className={styles.navItem}>
           <g-emoji

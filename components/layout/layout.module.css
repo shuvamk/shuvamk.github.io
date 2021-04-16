@@ -1,0 +1,11 @@
+.layout {
+  padding: 12px;
+  height: 100%;
+}
+@media (min-width: 1024px) {
+  .layout {
+    width: 80%;
+    margin: auto;
+    padding-top: 24px;
+  }
+}

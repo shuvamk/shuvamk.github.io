@@ -53,8 +53,7 @@
 
 .tag {
   background-color: #c0def2;
-  padding-inline: 12px;
-  padding-block: 4px;
+  padding: 4px 8px;
   font-size: 13px;
   border-radius: 8px;
 }
