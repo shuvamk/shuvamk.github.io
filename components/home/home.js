@@ -13,6 +13,9 @@ function Home() {
   };
   return (
     <div className={classnames(styles.container)}>
+      <head>
+        <title>Shuvamk.</title>
+      </head>
       <Mainfiold />
       <Footer />
     </div>

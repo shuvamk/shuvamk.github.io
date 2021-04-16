@@ -1,8 +1,15 @@
 import React from "react";
 import styles from "./projects.module.css";
 
-function Projects() {
-  return <div>This is projects page</div>;
+function ProjectsComp() {
+  return (
+    <div>
+      <head>
+        <title>Shuvamk. : Projects</title>
+      </head>
+      This is projects page
+    </div>
+  );
 }
 
-export default Projects;
+export default ProjectsComp;

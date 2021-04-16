@@ -1,0 +1,12 @@
+.blog {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+@media (max-width: 450px) {
+  .blog {
+    flex-direction: column-reverse;
+  }
+}

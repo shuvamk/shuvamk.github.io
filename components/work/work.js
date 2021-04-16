@@ -9,6 +9,9 @@ import styles from "./work.module.css";
 function WorkComp() {
   return (
     <div className={styles.container}>
+      <head>
+        <title>Shuvamk. : Work</title>
+      </head>
       <Upfold />
       <Downfold />
     </div>
