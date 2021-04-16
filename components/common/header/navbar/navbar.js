@@ -28,7 +28,10 @@ function Navbar({ toggle }) {
           >
             🚀
           </g-emoji>
-          <span> </span>Projects
+          <span> </span>
+          <Link href="/projects">
+            <a>Projects</a>
+          </Link>
         </div>
         <div className={styles.navItem}>
           <g-emoji
@@ -38,7 +41,10 @@ function Navbar({ toggle }) {
           >
             📝
           </g-emoji>
-          <span> </span>Blog
+          <span> </span>
+          <Link href="/blog">
+            <a>Blog</a>
+          </Link>
         </div>
         <div className={styles.navItem}>
           <g-emoji
@@ -48,7 +54,10 @@ function Navbar({ toggle }) {
           >
             🦸
           </g-emoji>
-          <span> </span>Me
+          <span> </span>
+          <Link href="/me">
+            <a>Me</a>
+          </Link>
         </div>
       </div>
       <div className={styles.mobileButton}>
