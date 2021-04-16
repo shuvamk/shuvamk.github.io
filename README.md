@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2> Hello, I am Shuvam Kumar! <img src="https://media3.giphy.com/media/bcKmIWkUMCjVm/200.webp?cid=ecf05e47tdh0pjmuukvnwrjvjpoyqx9fcm7qbn4cckz58b9v&rid=200.webp&ct=g" width="50"></h2>
+<img align='right' src="https://cdn3d.iconscout.com/3d/premium/thumb/man-working-from-home-2996961-2493518.png">
+<p><em>Student at  <a href="https://www.aitpune.com/">Army Institute of Technology, Pune</a><img src="https://media3.giphy.com/media/MasfNVDb2lkeB44QIC/200w.webp?cid=ecf05e477qvdf4p55zqrxf4m732veo28wy8qh7dt8msyptl5&rid=200w.webp&ct=s" width="30"></br>Frontend Developer at <a href="http://hackerearth.com/">HackerEarth</a><img src="https://media0.giphy.com/media/f6hnhHkks8bk4jwjh3/200w.webp?cid=ecf05e47sx9e2k1ignzp5fboaz8x9s5rjqeor6r5jfkzoj3f&rid=200w.webp&ct=s" width="30"> 
+</em></p>
 
-## Getting Started
+[![Linkedin: shuvam kumar](https://img.shields.io/badge/-shuvamk-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/shuvam-kumar-09512a168/)](https://www.linkedin.com/in/shuvam-kumar-09512a168/)
+[![GitHub shuvamk](https://img.shields.io/github/followers/shuvamk?label=follow&style=social)](https://github.com/shuvamk)
 
-First, run the development server:
+### <img src="https://media0.giphy.com/media/h2MouomJFCpMfWVfUj/200w.webp?cid=ecf05e47v7lajkn42uinkr6qpti18zyelob62i9ydbsqv165&rid=200w.webp&ct=s" width="50"> A little more about me...
 
-```bash
-npm run dev
-# or
-yarn dev
+```javascript
+const shuvamk = {
+  work: ["HackerEarth", "Bizup"],
+  language: [Javascript, HTML, CSS, C++],
+  tools: [React, Redux, Node, Next, React - Native],
+  collegeLife: {
+    marketingHead: "OSS Club",
+    enthusiast: ["Hackathons", "Debate", "Street Play"],
+    hobbies: ["Travelling", "Reading Non-fiction"],
+  },
+  joke: "What did baby ant say to her mother? nothing, they can't speak",
+};
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img src="https://media1.giphy.com/media/VxFrlqO1mVzmE/giphy.webp?cid=ecf05e47hsx6yhtarkahhmr1gl7zm2ojatkg998ljx66esc5&rid=giphy.webp&ct=s" width="60"> <em>This code is open sourced for everyone to see and take help if needed. Feel free to raise a PR if you think it can be made better.</em>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+##
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<h2>How to run this code?</h2>
+<h5>Clone this repo in your local machine</h5>
+<h6>git clone</h6>
+<h5>Go to the directory</h5>
+<h6>cd shuvamk.github.io</h6>
+<h5>Install dependencies</h5>
+<h6>npm i</h6>
+<h5>Run the development Server</h5>
+<h6>npm run dev</h6>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
