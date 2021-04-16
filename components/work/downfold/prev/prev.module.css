@@ -1,14 +1,56 @@
 .prev {
   height: 250px;
-  width: 500px;
+  width: 400px;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 18px 0px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  padding: 20px;
+  margin: 16px 20px 8px 0px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+
+.techTag {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+
+.tag {
+  font-size: 12px;
+  background-color: #c0def2;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 12px;
+  margin: 6px;
+}
+
+.role {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.comp {
+  font-size: 18px;
+}
+.compName {
+  color: #4433ff;
+  text-decoration: underline;
+}
+
+.joined {
+  font-size: 14px;
+  color: #6c7693;
+}
+
+.descLine {
+  display: flex;
   align-items: center;
-  margin: 16px 0px;
+  margin: 4px 0px;
+  color: #6c7693;
+  /* text-align: end; */
 }

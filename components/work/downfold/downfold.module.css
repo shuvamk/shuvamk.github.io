@@ -1,13 +1,25 @@
 .downfold {
   width: 100%;
   display: flex;
-  flex-direction: column;
-
   justify-content: space-between;
 }
 
 .prevCard {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: flex-start;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prevText {
+  display: inline-block;
+  transform: rotate(90deg);
+  font-weight: 600;
+  color: #4433ff;
+  font-size: 28px;
+  cursor: pointer;
+  height: fit-content;
 }
