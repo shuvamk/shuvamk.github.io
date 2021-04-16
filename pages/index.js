@@ -10,6 +10,9 @@ function index() {
         alignItems: "center",
       }}
     >
+      <head>
+        <title>Shuvamk.</title>
+      </head>
       <Home />
     </div>
   );
