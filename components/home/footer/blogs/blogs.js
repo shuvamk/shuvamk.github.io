@@ -15,7 +15,8 @@ function Blogs() {
         <span className={styles.blogTitle}>Blogs</span>
       </div>
       <div className={styles.body}>
-        {blogList.map((blog) => {
+        {blogList.map((blog, id) => {
+          if (id > 2) return null;
           return <BlogCard blog={blog} />;
         })}
       </div>
